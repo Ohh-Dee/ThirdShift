@@ -1,0 +1,25 @@
+# Unreal generated files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+.idea/
+
+# Block all content by default
+Content/*
+
+# Allow only these content folders
+!Content/Characters/
+!Content/Input/
+!Content/LevelPrototyping/
+!Content/ThirdPerson/
+!Content/Variant_Combat/
+!Content/ThirdShift/
+!Content/__ExternalActors__/
+!Content/__ExternalObjects__/
+
+# Keep third-party plugins out
+Plugins/
